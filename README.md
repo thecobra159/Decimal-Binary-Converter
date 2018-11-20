@@ -43,7 +43,7 @@ Caso o valor seja inferior a zero:
 
 ![](media/first_formula.png)
 
-Onde *n* é a quantidade de dígitos inteiros e m a quantidade de dígitos fracionados, sendo *n-1* o dígito mais significativo e *-m* o menos significativo e *d¬j* são os dígitos que compõem a representação do número *x*.
+Onde *n* é a quantidade de dígitos inteiros e *m* a quantidade de dígitos fracionados, sendo *n-1* o dígito mais significativo e *-m* o menos significativo e *d¬j* são os dígitos que compõem a representação do número *x*.
 
 ![](media/second_formula.png)
 
