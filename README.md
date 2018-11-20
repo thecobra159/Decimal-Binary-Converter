@@ -41,12 +41,12 @@ Caso o valor seja inferior a zero:
 
 [1] Notação posicional é um modo de representação numérica na qual o valor de cada algarismo depende da sua posição relativa na composição do número. O valor do número é a soma de cada algarismo que o compõe, considerando a posição em que o mesmo se encontra. Um número *x* pode ser representado num sistema de base *b* conforme o polinômio:
 
-https://wikimedia.org/api/rest_v1/media/math/render/svg/f9e8d04e297aa97847d8d169d0a4429bb77a6038
+![](media/first_formula.png)
 
 Onde *n* é a quantidade de dígitos inteiros e m a quantidade de dígitos fracionados, sendo *n-1* o dígito mais significativo e *-m* o menos significativo e *d¬j* são os dígitos que compõem a representação do número *x*.
 
-https://wikimedia.org/api/rest_v1/media/math/render/svg/0fe53572d554504dc8e20bc9ef4c87351f63d372
+![](media/second_formula.png)
 
 Para converter de decimal para binário utiliza-se o método das divisões sucessivas pela base dois e o resultado é dado pelos restos das divisões no sentido da última divisão para a primeira.
 
-http://conversordemedidas.info/img/conv1.png
+![](media/decimalToBinary.png)
