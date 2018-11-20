@@ -9,17 +9,7 @@ O sistema binário é base para a Álgebra booleana, que permite fazer operaçõ
 O BCD (binary coded decimal) é o código que converte decimal para binário. Ao pegarmos no valor em decimal podemos facilmente convertê-lo para binário, mas a numeração binária é extensa na medida que se obtém muitos dígitos na finalização da conversão. Temos a seguinte ordem de ações para obter um valor em notação científica binária:
 
 
-1.	O valor é diferente de zero?
-2.	Se sim calcular o logaritmo de base 2 desse valor(sN).
-3.	Guardar o valor à esquerda da vírgula (sN1).
-4.	Guardar o valor à direita da vírgula (multi(sN)).
-5.	Calcular o valor a multiplicar por x10(sN1).
-6.	Converter sN1 e sN2 para binário.
-7.	E então escrever (sN2 em binário) x10(sN1 em binário).
-Caso o valor seja inferior a zero:
-1.	Multiplique o valor em decimal por -1.
-2.	Calcule sN, sN1, sN2 sendo que deve multiplicar sN2 por -1.
-3.	Em seguida multiplique novamente o valor em decimal por -1.
+![](media/program_fluxogram.png)
 
 ```C
     if( decimal >= 0) {
